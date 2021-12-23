@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Tp03.Core.Entities.Container>
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Index</title>
+</head>
+
+<body>
+  <p>
+    <a asp-action="Create">Create New</a>
+  </p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          @Html.DisplayNameFor(model => model.Numero)
+        </th>
+        <th>
+          @Html.DisplayNameFor(model => model.Tipo)
+        </th>
+        <th>
+          @Html.DisplayNameFor(model => model.Tamanho)
+        </th>
+        <th>
+          Número BL
+        </th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var item in Model)
+      {
+        <tr>
+          <td>
+            @Html.DisplayFor(modelItem => item.Numero)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.Tipo)
+          </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.Tamanho)
+          </td>
+          <td>
+            @(item.BillOfLading?.Numero == null ? "---" : item.BillOfLading.Numero)
+          </td>
+          <td>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</body>
+
+</html>

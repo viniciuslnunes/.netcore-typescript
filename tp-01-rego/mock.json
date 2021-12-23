@@ -1,0 +1,522 @@
+[
+  {
+    "id": 0,
+    "name": "Orgulho e Preconceito",
+    "authors": [
+      { "name": "Jane Austen", "email": "too@mail.com", "gender": "F" },
+      { "name": "George Orwell", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 0,
+    "price": 0
+  },
+  {
+    "id": 1,
+    "name": "1984",
+    "authors": [
+      { "name": "George Orwell", "email": "too@mail.com", "gender": "M" },
+      { "name": "Miguel de Cervantes", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 1,
+    "price": 2
+  },
+  {
+    "id": 2,
+    "name": "Dom Quixote de la Mancha",
+    "authors": [
+      { "name": "Miguel de Cervantes", "email": "too@mail.com", "gender": "F" },
+      {
+        "name": "Antoine de Saint-Exupéry",
+        "email": "too@mail.com",
+        "gender": "M"
+      }
+    ],
+    "quantity": 2,
+    "price": 4
+  },
+  {
+    "id": 3,
+    "name": "O Pequeno Príncipe",
+    "authors": [
+      {
+        "name": "Antoine de Saint-Exupéry",
+        "email": "too@mail.com",
+        "gender": "M"
+      },
+      { "name": "Machado de Assis", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 3,
+    "price": 1
+  },
+  {
+    "id": 4,
+    "name": "Dom Casmurro",
+    "authors": [
+      { "name": "Machado de Assis", "email": "too@mail.com", "gender": "F" },
+      { "name": "Louis de Bernières", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 4,
+    "price": 11
+  },
+  {
+    "id": 5,
+    "name": "O Bandolim do Capitão Corelli",
+    "authors": [
+      { "name": "Louis de Bernières", "email": "too@mail.com", "gender": "M" },
+      { "name": "Alexandre Dumas", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 5,
+    "price": 4
+  },
+  {
+    "id": 6,
+    "name": "O Conde de Monte Cristo",
+    "authors": [
+      { "name": "Alexandre Dumas", "email": "too@mail.com", "gender": "F" },
+      { "name": "Arthur Conan Doyle", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 6,
+    "price": 16
+  },
+  {
+    "id": 7,
+    "name": "Um Estudo em Vermelho",
+    "authors": [
+      { "name": "Arthur Conan Doyle", "email": "too@mail.com", "gender": "M" },
+      { "name": "Franz Kafka", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 7,
+    "price": 16
+  },
+  {
+    "id": 8,
+    "name": "O Processo",
+    "authors": [
+      { "name": "Franz Kafka", "email": "too@mail.com", "gender": "F" },
+      {
+        "name": "Gabriel García Márquez",
+        "email": "too@mail.com",
+        "gender": "M"
+      }
+    ],
+    "quantity": 8,
+    "price": 16
+  },
+  {
+    "id": 9,
+    "name": "Cem Anos de Solidão",
+    "authors": [
+      {
+        "name": "Gabriel García Márquez",
+        "email": "too@mail.com",
+        "gender": "M"
+      },
+      { "name": "Joseph Conrad", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 9,
+    "price": 17
+  },
+  {
+    "id": 10,
+    "name": "O Coração das Trevas",
+    "authors": [
+      { "name": "Joseph Conrad", "email": "too@mail.com", "gender": "F" },
+      { "name": "Isaac Asimov", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 10,
+    "price": 24
+  },
+  {
+    "id": 11,
+    "name": "Eu, Robô",
+    "authors": [
+      { "name": "Isaac Asimov", "email": "too@mail.com", "gender": "M" },
+      { "name": "Wellington", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 11,
+    "price": 9
+  },
+  {
+    "id": 12,
+    "name": "Tolkien",
+    "authors": [
+      { "email": "too@mail.com", "gender": "F" },
+      { "name": "Leo Tolstói", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 12,
+    "price": 5
+  },
+  {
+    "id": 13,
+    "name": "Guerra e Paz",
+    "authors": [
+      { "name": "Leo Tolstói", "email": "too@mail.com", "gender": "M" },
+      { "name": "João Guimarães Rosa", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 13,
+    "price": 37
+  },
+  {
+    "id": 14,
+    "name": "Grande Sertão: Veredas",
+    "authors": [
+      { "name": "João Guimarães Rosa", "email": "too@mail.com", "gender": "F" },
+      { "name": "Oscar Wilde", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 14,
+    "price": 9
+  },
+  {
+    "id": 15,
+    "name": "O Retrato de Dorian Gray",
+    "authors": [
+      { "name": "Oscar Wilde", "email": "too@mail.com", "gender": "M" },
+      { "name": "Sylvia Plath", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 15,
+    "price": 36
+  },
+  {
+    "id": 16,
+    "name": "A Redoma de Vidro",
+    "authors": [
+      { "name": "Sylvia Plath", "email": "too@mail.com", "gender": "F" },
+      { "name": "Clarice Lispector", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 16,
+    "price": 4
+  },
+  {
+    "id": 17,
+    "name": "A Hora da Estrela",
+    "authors": [
+      { "name": "Clarice Lispector", "email": "too@mail.com", "gender": "M" },
+      { "name": "José Saramago", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 17,
+    "price": 1
+  },
+  {
+    "id": 18,
+    "name": "Ensaio Sobre a Cegueira",
+    "authors": [
+      { "name": "José Saramago", "email": "too@mail.com", "gender": "F" },
+      { "name": "Wellington", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 18,
+    "price": 21
+  },
+  {
+    "id": 19,
+    "name": "Forster",
+    "authors": [
+      { "email": "too@mail.com", "gender": "M" },
+      { "name": "Ernest Hemingway", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 19,
+    "price": 7
+  },
+  {
+    "id": 20,
+    "name": "Por quem os Sinos Dobram",
+    "authors": [
+      { "name": "Ernest Hemingway", "email": "too@mail.com", "gender": "F" },
+      { "name": "William Shakespeare", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 20,
+    "price": 60
+  },
+  {
+    "id": 21,
+    "name": "Hamlet",
+    "authors": [
+      { "name": "William Shakespeare", "email": "too@mail.com", "gender": "M" },
+      { "name": "Thomas Mann", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 21,
+    "price": 47
+  },
+  {
+    "id": 22,
+    "name": "Morte em Veneza",
+    "authors": [
+      { "name": "Thomas Mann", "email": "too@mail.com", "gender": "F" },
+      { "name": "Marcel Proust", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 22,
+    "price": 58
+  },
+  {
+    "id": 23,
+    "name": "Em Busca do Tempo Perdido",
+    "authors": [
+      { "name": "Marcel Proust", "email": "too@mail.com", "gender": "M" },
+      { "name": "Platão", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 23,
+    "price": 56
+  },
+  {
+    "id": 24,
+    "name": "O Banquete",
+    "authors": [
+      { "name": "Platão", "email": "too@mail.com", "gender": "F" },
+      { "name": "Walt Whitman", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 24,
+    "price": 37
+  },
+  {
+    "id": 25,
+    "name": "Folhas de Relva",
+    "authors": [
+      { "name": "Walt Whitman", "email": "too@mail.com", "gender": "M" },
+      { "name": "Jack Kerouac", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 25,
+    "price": 24
+  },
+  {
+    "id": 26,
+    "name": "On The Road: Pé na Estrada",
+    "authors": [
+      { "name": "Jack Kerouac", "email": "too@mail.com", "gender": "F" },
+      { "name": "Allen Ginsberg", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 26,
+    "price": 69
+  },
+  {
+    "id": 27,
+    "name": "Uivo e outro poemas",
+    "authors": [
+      { "name": "Allen Ginsberg", "email": "too@mail.com", "gender": "M" },
+      { "name": "John Steinbeck", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 27,
+    "price": 42
+  },
+  {
+    "id": 28,
+    "name": "As Vinhas da Ira",
+    "authors": [
+      { "name": "John Steinbeck", "email": "too@mail.com", "gender": "F" },
+      { "name": "Charles Bukowski", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 28,
+    "price": 27
+  },
+  {
+    "id": 29,
+    "name": "Pulp",
+    "authors": [
+      { "name": "Charles Bukowski", "email": "too@mail.com", "gender": "M" },
+      { "name": "Fiódor Dostoiévski", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 29,
+    "price": 6
+  },
+  {
+    "id": 30,
+    "name": "Crime e Castigo",
+    "authors": [
+      { "name": "Fiódor Dostoiévski", "email": "too@mail.com", "gender": "F" },
+      { "name": "Virginia Woolf", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 30,
+    "price": 3
+  },
+  {
+    "id": 31,
+    "name": "Dalloway",
+    "authors": [
+      { "name": "Virginia Woolf", "email": "too@mail.com", "gender": "M" },
+      { "name": "Arthur Rimbaud", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 31,
+    "price": 88
+  },
+  {
+    "id": 32,
+    "name": "Uma Temporada no Inferno",
+    "authors": [
+      { "name": "Arthur Rimbaud", "email": "too@mail.com", "gender": "F" },
+      { "name": "Wellington", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 32,
+    "price": 35
+  },
+  {
+    "id": 33,
+    "name": "Scott Fitzgerald",
+    "authors": [
+      { "email": "too@mail.com", "gender": "M" },
+      { "name": "Harper Lee", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 33,
+    "price": 70
+  },
+  {
+    "id": 34,
+    "name": "O Sol é para Todos",
+    "authors": [
+      { "name": "Harper Lee", "email": "too@mail.com", "gender": "F" },
+      { "name": "Vladimir Nabokov", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 34,
+    "price": 93
+  },
+  {
+    "id": 35,
+    "name": "Lolita",
+    "authors": [
+      { "name": "Vladimir Nabokov", "email": "too@mail.com", "gender": "M" },
+      { "name": "Wellington", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 35,
+    "price": 24
+  },
+  {
+    "id": 36,
+    "name": "Salinger",
+    "authors": [
+      { "email": "too@mail.com", "gender": "F" },
+      { "name": "Homero", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 36,
+    "price": 102
+  },
+  {
+    "id": 37,
+    "name": "Odisseia",
+    "authors": [
+      { "name": "Homero", "email": "too@mail.com", "gender": "M" },
+      { "name": "Dante Alighieri", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 37,
+    "price": 54
+  },
+  {
+    "id": 38,
+    "name": "A Divina Comédia",
+    "authors": [
+      { "name": "Dante Alighieri", "email": "too@mail.com", "gender": "F" },
+      { "name": "Lewis Carroll", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 38,
+    "price": 107
+  },
+  {
+    "id": 39,
+    "name": "Alice no País das Maravilhas",
+    "authors": [
+      { "name": "Lewis Carroll", "email": "too@mail.com", "gender": "M" },
+      { "name": "David Foster Wallace", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 39,
+    "price": 25
+  },
+  {
+    "id": 40,
+    "name": "Graça Infinita",
+    "authors": [
+      {
+        "name": "David Foster Wallace",
+        "email": "too@mail.com",
+        "gender": "F"
+      },
+      { "name": "John Fante", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 40,
+    "price": 124
+  },
+  {
+    "id": 41,
+    "name": "Pergunte ao Pó",
+    "authors": [
+      { "name": "John Fante", "email": "too@mail.com", "gender": "M" },
+      { "name": "William Faulkner", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 41,
+    "price": 18
+  },
+  {
+    "id": 42,
+    "name": "O Som e a Fúria",
+    "authors": [
+      { "name": "William Faulkner", "email": "too@mail.com", "gender": "F" },
+      { "name": "Charles Dickens", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 42,
+    "price": 99
+  },
+  {
+    "id": 43,
+    "name": "Grandes Esperanças",
+    "authors": [
+      { "name": "Charles Dickens", "email": "too@mail.com", "gender": "M" },
+      { "name": "Charlotte Bronte", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 43,
+    "price": 66
+  },
+  {
+    "id": 44,
+    "name": "Jane Eyre",
+    "authors": [
+      { "name": "Charlotte Bronte", "email": "too@mail.com", "gender": "F" },
+      { "name": "Wellington", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 44,
+    "price": 126
+  },
+  {
+    "id": 45,
+    "name": "As Mil e uma Noites \\n",
+    "authors": [
+      { "email": "too@mail.com", "gender": "M" },
+      { "name": "Victor Hugo", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 45,
+    "price": 104
+  },
+  {
+    "id": 46,
+    "name": "Os Miseráveis",
+    "authors": [
+      { "name": "Victor Hugo", "email": "too@mail.com", "gender": "F" },
+      { "name": "Machado de Assis", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 46,
+    "price": 124
+  },
+  {
+    "id": 47,
+    "name": "Memórias Póstumas de Brás Cubas",
+    "authors": [
+      { "name": "Machado de Assis", "email": "too@mail.com", "gender": "M" },
+      { "name": "Margaret Atwood", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 47,
+    "price": 126
+  },
+  {
+    "id": 48,
+    "name": "O Conto da Aia",
+    "authors": [
+      { "name": "Margaret Atwood", "email": "too@mail.com", "gender": "F" },
+      { "name": "Louisa May Alcott", "email": "too@mail.com", "gender": "M" }
+    ],
+    "quantity": 48,
+    "price": 51
+  },
+  {
+    "id": 49,
+    "name": "Mulherzinhas",
+    "authors": [
+      { "name": "Louisa May Alcott", "email": "too@mail.com", "gender": "M" },
+      { "name": "Wellington", "email": "too@mail.com", "gender": "F" }
+    ],
+    "quantity": 49,
+    "price": 72
+  }
+]

@@ -1,0 +1,33 @@
+﻿@{
+    var categorias = ViewBag.Categorias as IList<CategoriaDoProduto>;
+
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in categorias)
+        {
+            <tr>
+                <td>
+                    @categoria.Id
+                </td>
+                <td>
+                    @categoria.Nome
+                </td>
+                <td>
+                    @categoria.Descricao
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

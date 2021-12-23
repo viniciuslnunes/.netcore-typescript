@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+  tp04-db-postgres:
+    environment:
+      - POSTGRES_USER=tp04
+      - POSTGRES_PASSWORD=DockerPostgres127!
+      - POSTGRES_DB=tp04
+    ports:
+      - 5432:5432
+
+  tp04-web-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - DB_HOST=tp04-db-postgres
+    ports:
+      - 3333:80
+
+  nginx-reverse-proxy:
+    ports:
+      - 8080:80

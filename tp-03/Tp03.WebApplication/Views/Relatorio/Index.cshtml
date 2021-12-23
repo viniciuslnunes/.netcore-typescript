@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Tp03.Core.Entities.Container>
+
+@{
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Index</title>
+</head>
+
+<body>
+  <p>
+    <span style="color: #0056b3;">Vai criar nada não</span>
+  </p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          Número BL
+        </th>
+        <th>
+          Consignee BL
+        </th>
+        <th>
+          Número container
+        </th>
+        <th>
+          Tipo container
+        </th>
+        <th>
+          Tamanho container
+        </th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach (var item in Model)
+      {
+        <tr>
+          <td>
+            @item.BillOfLading.Numero
+          </td>
+          <td>
+            @item.BillOfLading.Consignee
+          </td>
+          <td>
+            @item.Numero
+          </td>
+          <td>
+            @item.Tipo
+          </td>
+          <td>
+            @item.Tamanho
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</body>
+
+</html>
